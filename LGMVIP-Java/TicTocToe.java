@@ -32,7 +32,6 @@ class TicTocToe extends Frame implements ActionListener
     public void actionPerformed(ActionEvent e)
     {
         Button b=(Button)e.getSource();
-        // b.setEnabled(false);
         if(lbl.equals("X"))
         {
             lbl="O";
